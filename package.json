@@ -1,6 +1,6 @@
 {
   "name": "putmetric",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Push metrics to ContainerPilot",
   "main": "index.js",
   "scripts": {
