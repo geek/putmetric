@@ -4,7 +4,8 @@
   "description": "Push metrics to ContainerPilot",
   "main": "lib/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "belly-button",
+    "test": "lab -t 100"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/geek/putmetric/issues"
   },
-  "homepage": "https://github.com/geek/putmetric#readme"
+  "homepage": "https://github.com/geek/putmetric#readme",
+  "devDependencies": {
+    "belly-button": "3.x.x",
+    "lab": "14.x.x"
+  }
 }
